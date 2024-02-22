@@ -36,8 +36,8 @@ def process_dataset(image_dir, emotion_label_file, output_dir, image_name_trans:
         shutil.rmtree(output_dir)
 
     os.makedirs(output_dir, exist_ok=True)
-    train_dir = os.path.join(output_dir, 'training')
-    test_dir = os.path.join(output_dir, 'validation')
+    train_dir = os.path.join(output_dir, '')
+    test_dir = os.path.join(output_dir, '')
     os.makedirs(train_dir, exist_ok=True)
     os.makedirs(test_dir, exist_ok=True)
 
