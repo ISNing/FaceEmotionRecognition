@@ -1,0 +1,8 @@
+python==3.9
+tflite_support~=0.4.4
+Flask~=3.0.2
+numpy~=1.26.4
+opencv-python~=4.9.0.80
+picamera2~=0.3.17
+rpi-kms~=0.1a1
+rpi-libcamera~=0.1a3
